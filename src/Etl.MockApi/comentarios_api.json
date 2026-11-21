@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "API-0001",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-05-30"
+ },
+ {
+  "id": "API-0002",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-10-12"
+ },
+ {
+  "id": "API-0003",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Facebook",
+  "calificacion": 1,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-03-30"
+ },
+ {
+  "id": "API-0004",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-06-14"
+ },
+ {
+  "id": "API-0005",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-04-26"
+ },
+ {
+  "id": "API-0006",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "Twitter/X",
+  "calificacion": 1,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-02-21"
+ },
+ {
+  "id": "API-0007",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-02-10"
+ },
+ {
+  "id": "API-0008",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-06-29"
+ },
+ {
+  "id": "API-0009",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Instagram",
+  "calificacion": 1,
+  "texto": "",
+  "fecha": "2026-10-21"
+ },
+ {
+  "id": "API-0010",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-01-18"
+ },
+ {
+  "id": "API-0011",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-03-02"
+ },
+ {
+  "id": "API-0012",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-08-30"
+ },
+ {
+  "id": "API-0013",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Facebook",
+  "calificacion": 2,
+  "texto": "Llego danado y nadie me respondio.",
+  "fecha": "2026-06-30"
+ },
+ {
+  "id": "API-0014",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-01-14"
+ },
+ {
+  "id": "API-0015",
+  "usuario": "Nathalie Rosario",
+  "correo": "nathalie.rosario@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-07-19"
+ },
+ {
+  "id": "API-0016",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "TikTok",
+  "calificacion": 2,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-04-18"
+ },
+ {
+  "id": "API-0017",
+  "usuario": "Yesenia Torres",
+  "correo": "yesenia.torres@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 2,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-04-30"
+ },
+ {
+  "id": "API-0018",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-09-17"
+ },
+ {
+  "id": "API-0019",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-06-01"
+ },
+ {
+  "id": "API-0020",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-09-07"
+ },
+ {
+  "id": "API-0021",
+  "usuario": "Yesenia Torres",
+  "correo": "yesenia.torres@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 1,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-02-25"
+ },
+ {
+  "id": "API-0022",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-02-25"
+ },
+ {
+  "id": "API-0023",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-08-08"
+ },
+ {
+  "id": "API-0024",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-04-10"
+ },
+ {
+  "id": "API-0025",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-09-16"
+ },
+ {
+  "id": "API-0026",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-02-10"
+ },
+ {
+  "id": "API-0027",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-01-26"
+ },
+ {
+  "id": "API-0028",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-10-28"
+ },
+ {
+  "id": "API-0029",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-06-25"
+ },
+ {
+  "id": "API-0030",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 7,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-06-03"
+ },
+ {
+  "id": "API-0031",
+  "usuario": "Yesenia Torres",
+  "correo": "yesenia.torres@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-08-19"
+ },
+ {
+  "id": "API-0032",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-01-03"
+ },
+ {
+  "id": "API-0033",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "TikTok",
+  "calificacion": 1,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-05-11"
+ },
+ {
+  "id": "API-0034",
+  "usuario": "Juan Rodriguez",
+  "correo": "juan.rodriguez@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-01-24"
+ },
+ {
+  "id": "API-0035",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-04-02"
+ },
+ {
+  "id": "API-0036",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-08-29"
+ },
+ {
+  "id": "API-0037",
+  "usuario": "Maria Perez",
+  "correo": "maria.perez@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Facebook",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-10-13"
+ },
+ {
+  "id": "API-0038",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-06-19"
+ },
+ {
+  "id": "API-0039",
+  "usuario": "Yasmin Polanco",
+  "correo": "yasmin.polanco@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-04-20"
+ },
+ {
+  "id": "API-0040",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-03-16"
+ },
+ {
+  "id": "API-0041",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-09-10"
+ },
+ {
+  "id": "API-0042",
+  "usuario": "Maria Perez",
+  "correo": "maria.perez@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-05-23"
+ },
+ {
+  "id": "API-0043",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "Facebook",
+  "calificacion": 2,
+  "texto": "Llego danado y nadie me respondio.",
+  "fecha": "2026-08-10"
+ },
+ {
+  "id": "API-0044",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-08-14"
+ },
+ {
+  "id": "API-0045",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-07-17"
+ },
+ {
+  "id": "API-0046",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-06-06"
+ },
+ {
+  "id": "API-0047",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-07-18"
+ },
+ {
+  "id": "API-0048",
+  "usuario": "Yasmin Polanco",
+  "correo": "yasmin.polanco@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-06-29"
+ },
+ {
+  "id": "API-0049",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-01-25"
+ },
+ {
+  "id": "API-0050",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-05-12"
+ },
+ {
+  "id": "API-0051",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Facebook",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-02-21"
+ },
+ {
+  "id": "API-0052",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-09-05"
+ },
+ {
+  "id": "API-0053",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-01-16"
+ },
+ {
+  "id": "API-0054",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-07-27"
+ },
+ {
+  "id": "API-0055",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Instagram",
+  "calificacion": 1,
+  "texto": "Muy mala calidad, dejo de funcionar a la semana.",
+  "fecha": "2026-10-27"
+ },
+ {
+  "id": "API-0056",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-10-14"
+ },
+ {
+  "id": "API-0057",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-09-25"
+ },
+ {
+  "id": "API-0058",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-02-28"
+ },
+ {
+  "id": "API-0059",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-08-25"
+ },
+ {
+  "id": "API-0060",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-05-26"
+ },
+ {
+  "id": "API-0061",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-09-02"
+ },
+ {
+  "id": "API-0062",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-01-14"
+ },
+ {
+  "id": "API-0063",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Facebook",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-02-16"
+ },
+ {
+  "id": "API-0064",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "",
+  "fecha": "2026-09-07"
+ },
+ {
+  "id": "API-0065",
+  "usuario": "Maria Perez",
+  "correo": "maria.perez@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-09-08"
+ },
+ {
+  "id": "API-0066",
+  "usuario": "Estefani Nunez",
+  "correo": "estefani.nunez@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-07-29"
+ },
+ {
+  "id": "API-0067",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-01-09"
+ },
+ {
+  "id": "API-0068",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-09-18"
+ },
+ {
+  "id": "API-0069",
+  "usuario": "Yesenia Torres",
+  "correo": "yesenia.torres@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-01-19"
+ },
+ {
+  "id": "API-0070",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-03-25"
+ },
+ {
+  "id": "API-0071",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-09-25"
+ },
+ {
+  "id": "API-0072",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Freidora de Aire 4L",
+  "plataforma": "Facebook",
+  "calificacion": 1,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-04-25"
+ },
+ {
+  "id": "API-0073",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-10-12"
+ },
+ {
+  "id": "API-0074",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-08-12"
+ },
+ {
+  "id": "API-0075",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-06-08"
+ },
+ {
+  "id": "API-0076",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-05-07"
+ },
+ {
+  "id": "API-0077",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-01-14"
+ },
+ {
+  "id": "API-0078",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-08-04"
+ },
+ {
+  "id": "API-0079",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-09-27"
+ },
+ {
+  "id": "API-0080",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-08-10"
+ },
+ {
+  "id": "API-0081",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-04-18"
+ },
+ {
+  "id": "API-0082",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-02-18"
+ },
+ {
+  "id": "API-0083",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-06-04"
+ },
+ {
+  "id": "API-0084",
+  "usuario": "Rafael Guzman",
+  "correo": "rafael.guzman@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-01-01"
+ },
+ {
+  "id": "API-0085",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-03-16"
+ },
+ {
+  "id": "API-0086",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Facebook",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-08-22"
+ },
+ {
+  "id": "API-0087",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-04-29"
+ },
+ {
+  "id": "API-0088",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "TikTok",
+  "calificacion": 1,
+  "texto": "Llego danado y nadie me respondio.",
+  "fecha": "2026-02-18"
+ },
+ {
+  "id": "API-0089",
+  "usuario": "Rafael Guzman",
+  "correo": "rafael.guzman@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-02-08"
+ },
+ {
+  "id": "API-0090",
+  "usuario": "Nathalie Rosario",
+  "correo": "nathalie.rosario@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-01-15"
+ },
+ {
+  "id": "API-0091",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-04-14"
+ },
+ {
+  "id": "API-0092",
+  "usuario": "Nathalie Rosario",
+  "correo": "nathalie.rosario@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-07-17"
+ },
+ {
+  "id": "API-0093",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-05-02"
+ },
+ {
+  "id": "API-0094",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-07-20"
+ },
+ {
+  "id": "API-0095",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "TikTok",
+  "calificacion": 1,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-02-12"
+ },
+ {
+  "id": "API-0096",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-09-18"
+ },
+ {
+  "id": "API-0097",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-08-24"
+ },
+ {
+  "id": "API-0098",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-08-04"
+ },
+ {
+  "id": "API-0099",
+  "usuario": "Ramon Diaz",
+  "correo": "ramon.diaz@gmail.com",
+  "producto": "Auriculares Bluetooth X200",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-02-25"
+ },
+ {
+  "id": "API-0100",
+  "usuario": "Yesenia Torres",
+  "correo": "yesenia.torres@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-06-24"
+ },
+ {
+  "id": "API-0101",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "TikTok",
+  "calificacion": 7,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-03-08"
+ },
+ {
+  "id": "API-0102",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-08-03"
+ },
+ {
+  "id": "API-0103",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-10-27"
+ },
+ {
+  "id": "API-0104",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-10-14"
+ },
+ {
+  "id": "API-0105",
+  "usuario": "Juan Rodriguez",
+  "correo": "juan.rodriguez@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-09-17"
+ },
+ {
+  "id": "API-0106",
+  "usuario": "Nathalie Rosario",
+  "correo": "nathalie.rosario@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-01-11"
+ },
+ {
+  "id": "API-0107",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-09-22"
+ },
+ {
+  "id": "API-0108",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-09-02"
+ },
+ {
+  "id": "API-0109",
+  "usuario": "Miguel Reyes",
+  "correo": "miguel.reyes@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Facebook",
+  "calificacion": 1,
+  "texto": "Llego danado y nadie me respondio.",
+  "fecha": "2026-03-03"
+ },
+ {
+  "id": "API-0110",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Zapatillas Running Air",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-09-29"
+ },
+ {
+  "id": "API-0111",
+  "usuario": "Estefani Nunez",
+  "correo": "estefani.nunez@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Facebook",
+  "calificacion": 3,
+  "texto": "Esta bien, pero esperaba un poco mas.",
+  "fecha": "2026-06-30"
+ },
+ {
+  "id": "API-0112",
+  "usuario": "Ramon Diaz",
+  "correo": "ramon.diaz@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Facebook",
+  "calificacion": 2,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-06-12"
+ },
+ {
+  "id": "API-0113",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-02-28"
+ },
+ {
+  "id": "API-0114",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-01-14"
+ },
+ {
+  "id": "API-0115",
+  "usuario": "Yasmin Polanco",
+  "correo": "yasmin.polanco@gmail.com",
+  "producto": "Silla Gamer Ergonomica",
+  "plataforma": "Instagram",
+  "calificacion": 4,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-10-20"
+ },
+ {
+  "id": "API-0116",
+  "usuario": "Maria Perez",
+  "correo": "maria.perez@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-02-25"
+ },
+ {
+  "id": "API-0117",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-04-05"
+ },
+ {
+  "id": "API-0118",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-03-22"
+ },
+ {
+  "id": "API-0119",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "Cumple, nada fuera de lo normal.",
+  "fecha": "2026-08-06"
+ },
+ {
+  "id": "API-0120",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "",
+  "fecha": "2026-10-18"
+ },
+ {
+  "id": "API-0121",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "TikTok",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-08-12"
+ },
+ {
+  "id": "API-0122",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-06-14"
+ },
+ {
+  "id": "API-0123",
+  "usuario": "Carlos Mejia",
+  "correo": "carlos.mejia@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Instagram",
+  "calificacion": 1,
+  "texto": "Llego danado y nadie me respondio.",
+  "fecha": "2026-10-08"
+ },
+ {
+  "id": "API-0124",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Facebook",
+  "calificacion": 1,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-06-03"
+ },
+ {
+  "id": "API-0125",
+  "usuario": "Juan Rodriguez",
+  "correo": "juan.rodriguez@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "TikTok",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-09-03"
+ },
+ {
+  "id": "API-0126",
+  "usuario": "Laura Castillo",
+  "correo": "laura.castillo@gmail.com",
+  "producto": "Licuadora Turbo 600W",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-07-14"
+ },
+ {
+  "id": "API-0127",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Facebook",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-02-02"
+ },
+ {
+  "id": "API-0128",
+  "usuario": "Rafael Guzman",
+  "correo": "rafael.guzman@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "TikTok",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-07-05"
+ },
+ {
+  "id": "API-0129",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-10-02"
+ },
+ {
+  "id": "API-0130",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-06-07"
+ },
+ {
+  "id": "API-0131",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "TikTok",
+  "calificacion": 4,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-08-19"
+ },
+ {
+  "id": "API-0132",
+  "usuario": "Juan Rodriguez",
+  "correo": "juan.rodriguez@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Super bueno por el precio, volveria a comprar.",
+  "fecha": "2026-02-19"
+ },
+ {
+  "id": "API-0133",
+  "usuario": "Pablo Lara",
+  "correo": "pablo.lara@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-10-16"
+ },
+ {
+  "id": "API-0134",
+  "usuario": "Kelvin Pena",
+  "correo": "kelvin.pena@gmail.com",
+  "producto": "Ventilador de Pie 16in",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-04-02"
+ },
+ {
+  "id": "API-0135",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Botella Termica 750ml",
+  "plataforma": "Facebook",
+  "calificacion": 1,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-08-06"
+ },
+ {
+  "id": "API-0136",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-08-20"
+ },
+ {
+  "id": "API-0137",
+  "usuario": "Rafael Guzman",
+  "correo": "rafael.guzman@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-10-24"
+ },
+ {
+  "id": "API-0138",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-09-18"
+ },
+ {
+  "id": "API-0139",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Bocina Portatil Boom",
+  "plataforma": "Twitter/X",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-01-29"
+ },
+ {
+  "id": "API-0140",
+  "usuario": "Josefina Ramirez",
+  "correo": "josefina.ramirez@gmail.com",
+  "producto": "Teclado Mecanico RGB",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-09-17"
+ },
+ {
+  "id": "API-0141",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Funciona perfecto, lo uso todos los dias.",
+  "fecha": "2026-05-24"
+ },
+ {
+  "id": "API-0142",
+  "usuario": "Rafael Guzman",
+  "correo": "rafael.guzman@gmail.com",
+  "producto": "Smartwatch Fit Pro",
+  "plataforma": "Facebook",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-01-05"
+ },
+ {
+  "id": "API-0143",
+  "usuario": "Juan Rodriguez",
+  "correo": "juan.rodriguez@gmail.com",
+  "producto": "Lampara LED Escritorio",
+  "plataforma": "Twitter/X",
+  "calificacion": 5,
+  "texto": "Excelente producto, lo recomiendo.",
+  "fecha": "2026-06-16"
+ },
+ {
+  "id": "API-0144",
+  "usuario": "Bryan Valdez",
+  "correo": "bryan.valdez@gmail.com",
+  "producto": "Mochila Urbana 25L",
+  "plataforma": "TikTok",
+  "calificacion": 5,
+  "texto": "La atencion fue excelente, quede muy satisfecho.",
+  "fecha": "2026-06-16"
+ },
+ {
+  "id": "API-0145",
+  "usuario": "Nathalie Rosario",
+  "correo": "nathalie.rosario@gmail.com",
+  "producto": "Tablet 10 pulgadas",
+  "plataforma": "Twitter/X",
+  "calificacion": 4,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-05-15"
+ },
+ {
+  "id": "API-0146",
+  "usuario": "Daniela Cruz",
+  "correo": "daniela.cruz@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "Twitter/X",
+  "calificacion": 2,
+  "texto": "No lo recomiendo, el precio no vale la pena.",
+  "fecha": "2026-06-16"
+ },
+ {
+  "id": "API-0147",
+  "usuario": "Starlin Medina",
+  "correo": "starlin.medina@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Instagram",
+  "calificacion": 5,
+  "texto": "Muy buena calidad, llego rapido y bien empacado.",
+  "fecha": "2026-02-01"
+ },
+ {
+  "id": "API-0148",
+  "usuario": "Ana Batista",
+  "correo": "ana.batista@gmail.com",
+  "producto": "Camiseta Algodon Basica",
+  "plataforma": "Facebook",
+  "calificacion": 4,
+  "texto": "Cumplio con todo lo que prometian.",
+  "fecha": "2026-08-24"
+ },
+ {
+  "id": "API-0149",
+  "usuario": "Luis Almonte",
+  "correo": "luis.almonte@gmail.com",
+  "producto": "Cargador Rapido 65W",
+  "plataforma": "Instagram",
+  "calificacion": 2,
+  "texto": "La entrega se retraso mas de dos semanas.",
+  "fecha": "2026-05-28"
+ },
+ {
+  "id": "API-0150",
+  "usuario": "Carmen Santos",
+  "correo": "carmen.santos@gmail.com",
+  "producto": "Cafe Santo Domingo 1lb",
+  "plataforma": "Instagram",
+  "calificacion": 3,
+  "texto": "El producto es normal, la entrega tardo un poco.",
+  "fecha": "2026-03-17"
+ }
+]

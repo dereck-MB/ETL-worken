@@ -1,0 +1,9 @@
+flowchart BT
+  D["Etl.Domain<br/>RegistroCrudo · RegistroExtraido · ResumenExtraccion"]
+  A["Etl.Application<br/>IExtractor · IStagingRepository · Orquestador · Validador"]
+  I["Etl.Infrastructure<br/>Extractores · StagingRepository · DI"]
+  W["Etl.Worker<br/>Program · EtlWorker"]
+  A --> D
+  I --> A
+  W --> A
+  W --> I

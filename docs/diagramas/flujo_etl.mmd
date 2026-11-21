@@ -1,0 +1,18 @@
+flowchart TD
+  A([Inicio del Worker]) --> B[Cargar configuracion<br/>appsettings + secretos]
+  B --> C[Limpiar staging]
+  C --> D["Lanzar un Task por fuente habilitada<br/>(Task.WhenAll)"]
+  D --> E[Leer siguiente registro<br/>CSV / BD / API]
+  E --> F{Hay mas<br/>registros?}
+  F -- No --> J[Guardar lote pendiente]
+  F -- Si --> G{Registro<br/>valido?}
+  G -- No --> H[Log Warning<br/>rechazados++]
+  H --> E
+  G -- Si --> I[Agregar al lote<br/>validos++]
+  I --> K{Lote lleno?}
+  K -- Si --> L[SqlBulkCopy a<br/>stg.OpinionesExtraidas]
+  L --> E
+  K -- No --> E
+  J --> M[Registrar resumen en<br/>stg.LogExtraccion]
+  M --> N[Log de metricas<br/>Stopwatch]
+  N --> O([Fin])

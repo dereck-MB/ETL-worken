@@ -1,0 +1,35 @@
+flowchart TB
+  subgraph F["Fuentes de datos"]
+    CSV[("CSV<br/>encuestas internas")]
+    BD[("BD relacional<br/>OpinionesExterno")]
+    API["API REST<br/>comentarios"]
+  end
+
+  subgraph W["Worker Service .NET 8"]
+    direction TB
+    WK["Etl.Worker<br/>BackgroundService"]
+    OR["Etl.Application<br/>ExtraccionOrquestador<br/>+ Validador"]
+    EX["Etl.Infrastructure<br/>CsvExtractor · DatabaseExtractor · ApiExtractor"]
+    RP["StagingRepository<br/>SqlBulkCopy"]
+    WK --> OR --> EX
+    OR --> RP
+  end
+
+  subgraph A["BD analitica SistemaAnalisisOpiniones"]
+    ST[("stg.OpinionesExtraidas")]
+    LG[("stg.LogExtraccion")]
+  end
+
+  CFG["appsettings.json<br/>user-secrets / variables de entorno"]
+  LOG["ILogger + Serilog<br/>consola y archivo"]
+  DASH["Dashboard<br/>(Power BI / vistas SQL)"]
+
+  CSV --> EX
+  BD --> EX
+  API -->|"HttpClient + X-Api-Key"| EX
+  RP --> ST
+  RP --> LG
+  CFG -.-> WK
+  W -.-> LOG
+  ST --> DASH
+  LG --> DASH
