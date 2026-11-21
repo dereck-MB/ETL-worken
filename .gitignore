@@ -5,3 +5,4 @@ obj/
 logs/
 appsettings.Local.json
 secrets.json
+README.md
