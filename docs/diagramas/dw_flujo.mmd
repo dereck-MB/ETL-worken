@@ -1,0 +1,19 @@
+flowchart TD
+  A([Inicio: modo Dimensiones]) --> B["Siguiente dimension<br/>Tiempo, Producto, Fuente,<br/>Cliente, Sentimiento, Evento"]
+  B --> C["EXTRAER<br/>BD relacional SistemaAnalisisOpiniones"]
+  C --> D{"Incluir<br/>staging?"}
+  D -- Si --> E["EXTRAER valores distintos de<br/>stg.OpinionesExtraidas"]
+  D -- No --> F
+  E --> F["TRANSFORMAR<br/>limpiar, clave natural, rangos,<br/>fusionar OLTP / STAGING / AMBOS"]
+  F --> G["Iniciar transaccion"]
+  G --> H["TRUNCATE etl.Stg_Dim*"]
+  H --> I["CARGAR: SqlBulkCopy a etl.Stg_Dim*"]
+  I --> J["EXEC etl.sp_Cargar_Dim*<br/>MERGE: inserta nuevos, actualiza cambios"]
+  J --> K{"Error?"}
+  K -- Si --> L["Rollback<br/>estado ERROR"]
+  K -- No --> M["Commit<br/>estado OK"]
+  L --> N["Registrar en etl.LogCarga"]
+  M --> N
+  N --> O{"Hay mas<br/>dimensiones?"}
+  O -- Si --> B
+  O -- No --> P([Fin])

@@ -6,21 +6,40 @@ namespace Etl.Worker;
 
 public sealed class EtlWorker : BackgroundService
 {
-    private readonly ExtraccionOrquestador _orquestador;
+    private readonly ExtraccionOrquestador _extraccion;
+    private readonly CargaDimensionesOrquestador _dimensiones;
     private readonly EtlOptions _opciones;
     private readonly IHostApplicationLifetime _vida;
     private readonly ILogger<EtlWorker> _log;
 
     public EtlWorker(
-        ExtraccionOrquestador orquestador,
+        ExtraccionOrquestador extraccion,
+        CargaDimensionesOrquestador dimensiones,
         IOptions<EtlOptions> opciones,
         IHostApplicationLifetime vida,
         ILogger<EtlWorker> log)
     {
-        _orquestador = orquestador;
+        _extraccion = extraccion;
+        _dimensiones = dimensiones;
         _opciones = opciones.Value;
         _vida = vida;
         _log = log;
+    }
+
+    private async Task EjecutarCicloAsync(CancellationToken ct)
+    {
+        var modo = _opciones.Modo;
+        var extraccion = modo.Equals("Extraccion", StringComparison.OrdinalIgnoreCase);
+        var dimensiones = modo.Equals("Dimensiones", StringComparison.OrdinalIgnoreCase);
+        var todo = modo.Equals("Todo", StringComparison.OrdinalIgnoreCase);
+
+        _log.LogInformation("Modo de ejecucion: {Modo}", modo);
+
+        if (extraccion || todo)
+            await _extraccion.EjecutarAsync(ct);
+
+        if (dimensiones || todo)
+            await _dimensiones.EjecutarAsync(ct);
     }
 
     protected override async Task ExecuteAsync(CancellationToken ct)
@@ -31,7 +50,7 @@ public sealed class EtlWorker : BackgroundService
             {
                 try
                 {
-                    await _orquestador.EjecutarAsync(ct);
+                    await EjecutarCicloAsync(ct);
                 }
                 catch (Exception ex) when (ex is not OperationCanceledException)
                 {

@@ -25,6 +25,7 @@ builder.Logging.AddSerilog(Log.Logger, dispose: true);
 builder.Services.Configure<EtlOptions>(builder.Configuration.GetSection(EtlOptions.Seccion));
 builder.Services.AgregarInfraestructura(builder.Configuration);
 builder.Services.AddSingleton<ExtraccionOrquestador>();
+builder.Services.AddSingleton<CargaDimensionesOrquestador>();
 builder.Services.AddHostedService<EtlWorker>();
 
 await builder.Build().RunAsync();

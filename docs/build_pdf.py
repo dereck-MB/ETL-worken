@@ -11,10 +11,12 @@ def img(p):
 def codigo(ruta, ini=None, fin=None):
     lineas = (RAIZ / ruta).read_text(encoding="utf-8").splitlines()
     if ini: lineas = lineas[ini - 1: fin]
-    return f'<div class="arch">{html.escape(ruta)}</div><pre>{html.escape(chr(10).join(lineas))}</pre>'
+    return f'<pre>{html.escape(chr(10).join(lineas))}</pre>'
 
-def captura(n, titulo, pie):
+def captura(n, titulo, pie, opcional=False):
     f = DOCS / "capturas" / f"captura_{n}.png"
+    if opcional and not f.exists():
+        return ""
     if f.exists():
         cuerpo = f'<img class="cap" src="{img(f)}">'
     else:
@@ -24,23 +26,23 @@ def captura(n, titulo, pie):
 CSS = """
 @page { size: Letter; margin: 22mm 18mm; }
 body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10.5pt; color: #1b2430; line-height: 1.45; }
-h1 { font-size: 24pt; margin: 0 0 4px; color: #0f3d6e; }
-h2 { font-size: 15pt; color: #0f3d6e; border-bottom: 2px solid #0f3d6e; padding-bottom: 3px; margin-top: 26px; page-break-after: avoid; }
-h3 { font-size: 11.5pt; color: #1d5a99; margin: 14px 0 4px; page-break-after: avoid; }
-.sub { color: #55657a; margin-bottom: 18px; }
+h1 { font-size: 20pt; margin: 0 0 4px; color: #111; }
+h2 { font-size: 15pt; color: #111; border-bottom: 1px solid #111; padding-bottom: 3px; margin-top: 26px; page-break-after: avoid; }
+h3 { font-size: 11.5pt; color: #333; margin: 14px 0 4px; page-break-after: avoid; }
+.sub { color: #555; margin-bottom: 18px; }
 .meta td { padding: 2px 14px 2px 0; }
 table.t { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 9.5pt; }
-table.t th { background: #0f3d6e; color: #fff; text-align: left; padding: 5px 8px; }
-table.t td { border: 1px solid #ccd5e0; padding: 5px 8px; vertical-align: top; }
-table.t tr:nth-child(even) td { background: #f4f7fb; }
-pre { background: #f5f7fa; border: 1px solid #dde3ec; border-left: 4px solid #1d5a99; padding: 8px 10px; font-size: 7.8pt; line-height: 1.35; white-space: pre-wrap; margin: 0 0 10px; }
-.arch { font-family: Consolas, monospace; font-size: 8.5pt; color: #fff; background: #1d5a99; display: inline-block; padding: 2px 8px; border-radius: 4px 4px 0 0; margin-top: 8px; }
+table.t th { background: #e6e6e6; color: #111; text-align: left; padding: 5px 8px; }
+table.t td { border: 1px solid #bbb; padding: 5px 8px; vertical-align: top; }
+table.t tr:nth-child(even) td { background: #f7f7f7; }
+pre { background: #f7f7f7; border: 1px solid #ccc; padding: 8px 10px; font-size: 7.8pt; line-height: 1.35; white-space: pre-wrap; margin: 0 0 10px; }
+.arch { font-family: Consolas, monospace; font-size: 8.5pt; color: #fff; background: #333; display: inline-block; padding: 2px 8px; border-radius: 4px 4px 0 0; margin-top: 8px; }
 figure { margin: 12px 0; text-align: center; page-break-inside: avoid; }
 figure img { max-width: 100%; }
-figure img.cap { border: 1px solid #b8c4d4; }
-figcaption { font-size: 9pt; color: #55657a; margin-top: 4px; }
+figure img.cap { border: 1px solid #bbb; }
+figcaption { display: none; }
 .pend { border: 2px dashed #b0bccd; color: #7a8899; padding: 60px 20px; border-radius: 6px; background: #fafbfd; }
-.nota { background: #eef5fc; border-left: 4px solid #1d5a99; padding: 6px 10px; margin: 8px 0; }
+.nota { background: #f2f2f2; border-left: 4px solid #333; padding: 6px 10px; margin: 8px 0; }
 .salto { page-break-before: always; }
 ul { margin: 4px 0 6px 18px; padding: 0; }
 """
@@ -55,13 +57,6 @@ partes = []
 partes.append(f"""
 <h1>Proceso de Extracción (E de ETL) en .NET 8</h1>
 <div class="sub">Sistema de Análisis de Opiniones de Clientes — Arquitectura y Worker Service</div>
-<table class="meta">
-<tr><td><b>Asignatura</b></td><td>SQL Data Warehouse (ITLA)</td></tr>
-<tr><td><b>Actividad</b></td><td>Actividad 1 — Desarrollo del Proceso ETL en .NET</td></tr>
-<tr><td><b>Estudiante</b></td><td>Dereck Jr.</td></tr>
-<tr><td><b>Fecha</b></td><td>20 de noviembre de 2026</td></tr>
-<tr><td><b>Repositorio</b></td><td>github.com/DereckyJr/EtlOpinionesWorker</td></tr>
-</table>
 
 <h2>1. Resumen</h2>
 <p>Se construyó un <b>Worker Service en .NET 8</b> que extrae opiniones de clientes desde tres tipos de fuente (archivo CSV, base de datos relacional y API REST), las valida y las deja en tablas <i>staging</i> de la base analítica <b>SistemaAnalisisOpiniones</b>, modelada en la actividad anterior. El diseño sigue Clean Architecture y cada fuente es un componente intercambiable detrás de la interfaz <code>IExtractor</code>.</p>
@@ -153,7 +148,7 @@ partes.append(f"""
 {captura(2,"Worker Service ejecutándose en consola","Ejecución del Worker: logs por fuente, advertencias de registros rechazados y métricas de tiempo.")}
 {captura(3,"Resumen por origen y bitácora en SQL Server","Consulta a stg.vw_ResumenPorOrigen y stg.LogExtraccion.")}
 {captura(4,"Muestra de datos en stg.OpinionesExtraidas","Registros extraídos en la tabla de staging.")}
-{captura(5,"Estructura de la solución en Visual Studio","Proyectos por capa en el Explorador de soluciones.")}
+{captura(5,"Estructura de la solución en Visual Studio","Proyectos por capa en el Explorador de soluciones.", opcional=True)}
 
 <h2>8. Conclusión</h2>
 <p>La solución extrae tres tipos de fuente en paralelo hacia staging, con validación, bitácora y métricas, y cumple los atributos de calidad pedidos. Queda preparada para las siguientes etapas del ETL: transformar los datos de staging y cargarlos al modelo analítico, y alimentar el dashboard.</p>
@@ -168,9 +163,7 @@ with sync_playwright() as p:
     pg.goto((DOCS / "_doc.html").as_uri())
     pg.pdf(path=str(salida), format="Letter", print_background=True,
            margin={"top":"18mm","bottom":"18mm","left":"16mm","right":"16mm"},
-           display_header_footer=True,
-           header_template="<span></span>",
-           footer_template="<div style='font-size:8px;width:100%;text-align:center;color:#778'>Proceso de Extracción ETL .NET 8 — <span class='pageNumber'></span>/<span class='totalPages'></span></div>")
+           display_header_footer=False)
     b.close()
 (DOCS / "_doc.html").unlink()
 print("PDF:", salida)

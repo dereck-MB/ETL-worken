@@ -1,0 +1,31 @@
+flowchart LR
+  subgraph O["Origen: SistemaAnalisisOpiniones"]
+    T1[("dbo.Clientes")]
+    T2[("dbo.Productos")]
+    T3[("dbo.Fuentes")]
+    T4[("dbo.Eventos")]
+    T5[("stg.OpinionesExtraidas")]
+  end
+
+  subgraph W["Worker Service .NET 8"]
+    direction TB
+    OR["CargaDimensionesOrquestador"]
+    LD["Dim*Loader<br/>extraer y transformar"]
+    OR --> LD
+  end
+
+  subgraph D["Destino: DataWarehouse"]
+    S[("etl.Stg_Dim*")]
+    SP["etl.sp_Cargar_Dim*<br/>MERGE"]
+    DM[("dw.Dim*")]
+    LG[("etl.LogCarga")]
+    S --> SP --> DM
+  end
+
+  T1 --> LD
+  T2 --> LD
+  T3 --> LD
+  T4 --> LD
+  T5 --> LD
+  LD -->|SqlBulkCopy| S
+  OR -->|bitacora| LG

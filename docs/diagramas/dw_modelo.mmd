@@ -1,0 +1,53 @@
+erDiagram
+  DimEvento }o--|| DimProducto : "producto"
+
+  DimTiempo {
+    int TiempoKey PK
+    date Fecha
+    smallint Anio
+    tinyint Trimestre
+    tinyint Mes
+    varchar NombreMes
+    varchar NombreDia
+    bit EsFinDeSemana
+  }
+  DimCliente {
+    int ClienteKey PK
+    varchar ClienteNK
+    varchar Nombre
+    varchar Correo
+    varchar Pais
+    varchar RangoEdad
+    varchar TipoCliente
+    varchar OrigenDato
+  }
+  DimProducto {
+    int ProductoKey PK
+    varchar ProductoNK
+    varchar Nombre
+    varchar Categoria
+    decimal Precio
+    varchar RangoPrecio
+    varchar OrigenDato
+  }
+  DimFuente {
+    int FuenteKey PK
+    varchar FuenteNK
+    varchar Nombre
+    varchar TipoCanal
+    varchar OrigenDato
+  }
+  DimSentimiento {
+    tinyint SentimientoKey PK
+    varchar Sentimiento
+    varchar RangoCalificacion
+  }
+  DimEvento {
+    int EventoKey PK
+    int EventoIDOrigen
+    varchar Nombre
+    varchar Tipo
+    int ProductoKey FK
+    date FechaInicio
+    date FechaFin
+  }

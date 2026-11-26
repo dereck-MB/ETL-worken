@@ -8,6 +8,7 @@ public sealed class EtlOptions
     public int IntervaloMinutos { get; set; } = 60;
     public bool LimpiarStagingAlIniciar { get; set; } = true;
     public bool PausarAlFinalizar { get; set; } = false;
+    public string Modo { get; set; } = "Dimensiones";
 }
 
 public sealed class StagingOptions
@@ -40,4 +41,15 @@ public sealed class ApiOptions
     public int TamanoPagina { get; set; } = 50;
     public int Reintentos { get; set; } = 3;
     public int TimeoutSegundos { get; set; } = 15;
+}
+
+public sealed class DataWarehouseOptions
+{
+    public const string Seccion = "DataWarehouse";
+    public string ConnectionString { get; set; } = "";
+    public string OrigenConnectionString { get; set; } = "";
+    public bool IncluirStaging { get; set; } = true;
+    public int TiempoAnioDesde { get; set; } = 2025;
+    public int TiempoAnioHasta { get; set; } = 2027;
+    public int TimeoutSegundos { get; set; } = 60;
 }
